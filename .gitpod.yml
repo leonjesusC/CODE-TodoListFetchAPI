@@ -1,0 +1,8 @@
+ports:
+  - port: 8080
+    onOpen: open-browser
+    visibility: public
+tasks:
+    - command: >
+        nvm install 14 &&
+        npm i vercel -g
